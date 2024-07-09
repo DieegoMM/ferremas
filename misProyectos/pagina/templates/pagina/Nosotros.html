@@ -1,0 +1,116 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'css/styleindex.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> <!--Importacion de logos footer -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Brownies De Mia</title>
+</head>
+<body class="body">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active"  aria-current="page" href="BrowniesTodos">Brownies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Nosotros">Nosotros</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="contacto">Contacto</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="crud">CRUD</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Cuenta
+            </a>
+            <ul class="dropdown-menu active">
+              <li><a class="dropdown-item" href="Inicio Sesion/iniciosesion.html">Iniciar Sesión</a></li>
+              <li><a class="dropdown-item" href="Inicio Sesion/registrarse.html">Registrarse</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-3 ">
+    <div class="row">
+
+
+        <!--Título y presentación de Brownie-->
+        <h1 class="display-3 text-center animate__animated animate__bounceInLeft">Sobre Nosotros</h1>
+
+        
+    </div>
+
+    <br><br>
+
+    <!--  Personalizar Brownie  -->
+    <div class="row text-center animate__animated animate__bounceInLeft" id="left15">
+
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">
+            <div class="card shadow w-50 mx-auto">
+                <div class="card-body">
+                    <p class="card-text">
+                        <h5 class="text-justifyN text-center animate__animated animate__bounceInLeft">
+                            Brownie de Mia es una empresa que surgió por la necesidad de financiar los gastos médicos de un gatito.
+                            A partir de esta necesidad, se creó una página de ventas de brownies que ofrecen deliciosos postres
+                            caseros hechos con ingredientes de alta calidad y sin conservantes.
+            
+                            El propósito de Brownie de Mia es ofrecer a sus clientes una experiencia única y deliciosa con cada
+                            bocado de brownie. Además, la empresa busca promover el cuidado y la atención de los animales, por lo
+                            que una parte de las ganancias obtenidas se destina a organizaciones que se dedican al rescate y cuidado
+                            de animales en situación de abandono.
+            
+                            Brownie de Mia se preocupa por la satisfacción de sus clientes, por lo que trabaja arduamente en ofrecer
+                            productos de calidad y un excelente servicio. La empresa se destaca por su compromiso social y su
+                            preocupación por el bienestar animal, lo que la convierte en una empresa con propósito más allá del
+                            negocio en sí mismo.
+            
+                            En resumen, Brownie de Mia es una empresa que surgió a partir de una necesidad personal, pero que se ha
+                            convertido en una oportunidad para ofrecer deliciosos postres caseros y promover el cuidado y atención a
+                            los animales en situación de abandono. La empresa se preocupa por la calidad de sus productos y la
+                            satisfacción de sus clientes, y destina una parte de sus ganancias a organizaciones dedicadas al cuidado
+                            de animales.
+                        </h5>
+                        <img src="{% static 'images/Logo_Princ.jpeg' %}" class="card-img-top" alt="">
+
+                    </p>
+
+                    
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<footer > 
+  <div class="footer-container">
+    <div class="footer-info">
+      <p><h7>Creadores:</h7><br> Diego Apablaza, Aurelio Ramírez y Marcelo Silva</p>
+      <a href="https://www.instagram.com/browniedemia.cl/?hl=es-la"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="https://www.facebook.com/"><i class= "fab fa-facebook"></i> Facebook </a>
+      <p>© 2024 Brownie de Mia. Derechos Reservados.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
+  
